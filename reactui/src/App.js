@@ -3,7 +3,7 @@ import Home from './container/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-gray-900">
       <Home/>
 
     </div>
