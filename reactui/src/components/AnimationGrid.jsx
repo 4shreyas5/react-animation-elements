@@ -11,7 +11,7 @@ import {
    
   export default function AnimationGrid() {
     return (
-        <div className=" grid grid-cols-3 ml-44 my-4 ">
+        <div className=" grid grid-cols-3 ml-44 my-4 " id="animationgrid">
       <Card className="bg-black w-7/12 mt-5">
         <div class="pyramid-loader -ml-4 ">
   <div class="wrapper">

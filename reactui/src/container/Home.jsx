@@ -4,7 +4,6 @@ import ExampleCarousel from "../components/Carousel";
 import AnimationGrid from "../components/AnimationGrid";
 import Footer from "../components/Footer";
 
-
 function Home (){
     return(
         <div>

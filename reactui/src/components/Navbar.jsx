@@ -7,6 +7,7 @@ import {
   IconButton,
   Card,
 } from "@material-tailwind/react";
+import { HashLink as Link } from "react-router-hash-link";
  
 export default function Example() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -37,7 +38,7 @@ export default function Example() {
               size="sm"
               className="hidden lg:inline-block"
             >
-              <span>Buy Now</span>
+              <Link to="#animationgrid" smooth>Buy Now</Link>
             </Button>
           </div>
         </div>
