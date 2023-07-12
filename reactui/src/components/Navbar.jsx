@@ -3,9 +3,7 @@ import {
   Navbar,
   MobileNav,
   Typography,
-  Button,
-  IconButton,
-  Card,
+  Button
 } from "@material-tailwind/react";
 import { HashLink as Link } from "react-router-hash-link";
  

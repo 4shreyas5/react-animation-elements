@@ -1,10 +1,5 @@
 import {
-    Card,
-    CardHeader,
-    CardBody,
-    CardFooter,
-    Typography,
-    Tooltip,
+    Card
   } from "@material-tailwind/react";
   import "../css/a.css"
   import { Link } from "react-router-dom";

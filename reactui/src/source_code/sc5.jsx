@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
-import { Carousel, Typography, Button } from "@material-tailwind/react";
+import { Carousel} from "@material-tailwind/react";
 import { Paper } from '@mui/material';
 
  function SC5(){
@@ -11,7 +11,7 @@ import { Paper } from '@mui/material';
       <div className="relative h-full w-full">
         <img
           src="https://thumbs.gfycat.com/DependableHeavenlyKentrosaurus-size_restricted.gif"
-          alt="image 1"
+          alt=""
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75 flex">

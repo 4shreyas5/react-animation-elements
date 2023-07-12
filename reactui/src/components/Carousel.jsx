@@ -7,7 +7,7 @@ export default function ExampleCarousel() {
       <div className="relative h-full w-full">
         <img
           src="https://thumbs.gfycat.com/DependableHeavenlyKentrosaurus-size_restricted.gif"
-          alt="image 1"
+          alt=""
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
