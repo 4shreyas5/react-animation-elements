@@ -16,7 +16,7 @@
   }
   
   .button::before {
-    content: "₹5 only /-";
+    content: "Free";
     display: flex;
     align-items: center;
     justify-content: center;

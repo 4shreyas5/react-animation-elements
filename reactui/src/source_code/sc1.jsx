@@ -19,8 +19,8 @@ import { Paper } from '@mui/material';
           <div className=" flex gap-12 w-3/4 text-center md:w-2/4">
           <Paper sx={{ maxHeight: '400px',maxWidth: '350px', overflow: 'auto' }}>
       <div className='bg-gray-900 h-screen text-white ' style={{ padding: '16px' }}>
-        <h2 className=' text-red-500 font-bold text-xl ' >HTML</h2>
-        <p>
+        <h2 className=' text-red-500 font-bold text-xl  ' >HTML</h2>
+        <p className='text-start'>
     &lt;div class="pyramid-loader -ml-4 "&gt;<br/>
     &nbsp;&nbsp;&lt;div class="wrapper"&gt;<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="side side1"&gt;&lt;/span&gt;<br/>
@@ -38,7 +38,7 @@ import { Paper } from '@mui/material';
       <div className="bg-gray-900 text-white" style={{ padding: '16px' }}>
         <h2 className=' text-cyan-500 font-bold text-xl '>CSS</h2>
         <div>
-        <p>
+        <p className='text-start'>
         .pyramid-loader &#123;<br/>
     &nbsp;&nbsp;position: relative;<br/>
     &nbsp;&nbsp;width: 300px;<br/>

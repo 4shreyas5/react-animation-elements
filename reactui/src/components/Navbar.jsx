@@ -38,13 +38,13 @@ export default function Example() {
               size="sm"
               className="hidden lg:inline-block"
             >
-              <Link to="#animationgrid" smooth>Buy Now</Link>
+              <Link to="#animationgrid" smooth>Get Your Design</Link>
             </Button>
           </div>
         </div>
         <MobileNav open={openNav}>
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
+            <span>Get Your Design</span>
           </Button>
         </MobileNav>
       </Navbar>

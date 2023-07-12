@@ -1,4 +1,5 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
  
 export default function ExampleCarousel() {
   return (
@@ -23,17 +24,16 @@ export default function ExampleCarousel() {
               color="white"
               className="mb-12 opacity-80"
             >
-              Welcome to the React Animated UI-Elements marketplace 
+              Welcome to the React Animated UI-Elements Marketplace 
               <div className="font-bold">Happy Shopping!!!</div>
             </Typography>
-            {/* <div className="flex justify-center gap-2">
-              <Button size="lg" color="white">
-                Explore
+            <div className="flex justify-center gap-2">
+              <Link to="/payment">
+              <Button size="lg" color="white" >
+                Donate Now!
               </Button>
-              <Button size="lg" color="white" variant="text">
-                Gallery
-              </Button>
-            </div> */}
+              </Link>
+            </div>
           
           </div>
         </div>

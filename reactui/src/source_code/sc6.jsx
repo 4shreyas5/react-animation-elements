@@ -17,33 +17,23 @@ import { Paper } from '@mui/material';
         <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75 flex">
             <p className='text-white text-4xl font-extrabold -mb-20 text-amber-400 '>Source Code</p>
           <div className=" flex gap-12 w-3/4 text-center md:w-2/4">
-          <Paper sx={{ maxHeight: '400px', overflow: 'auto' }}>
-      <div className='bg-gray-900 text-white ' style={{ padding: '16px' }}>
+          <Paper sx={{ maxHeight: '400px', maxWidth: '350px', overflow: 'auto' }}>
+      <div className='bg-gray-900 text-white h-full' style={{ padding: '16px' }}>
         <h2 className=' text-red-500 font-bold text-xl ' >HTML</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget lectus rhoncus, commodo ex non,
-          ullamcorper leo. Nullam varius enim vel enim consectetur, vitae bibendum quam sodales. Donec volutpat
-          turpis in tempor sagittis. Duis ultrices risus in mi posuere, id ullamcorper est rhoncus. Sed bibendum
-          mi at dolor tincidunt, vitae fermentum ligula rutrum. Ut in ipsum turpis. Proin efficitur ligula et
-          fermentum ullamcorper. Maecenas pretium iaculis sapien id laoreet. Integer vel diam et eros iaculis
-          aliquet vitae a metus. Phasellus et nulla ipsum. Sed commodo lacus ut dapibus tempus. Integer interdum
-          fermentum volutpat. Pellentesque eleifend mi vitae erat congue bibendum. Nulla nec ultrices erat, vel
-          vulputate tortor.
+        <p className='text-start'>
+        The code is exclusive for Donators :<br/>
+    Email: shreyassingh126@gmail.com <br/>
+    To Get the code
         </p>
       </div>
     </Paper>
-    <Paper sx={{ maxHeight: '400px', overflow: 'auto' }}>
-      <div className="bg-gray-900 text-white" style={{ padding: '16px' }}>
+    <Paper sx={{ maxHeight: '400px', maxWidth: '350px', overflow: 'auto' }}>
+      <div className="bg-gray-900 text-white h-full" style={{ padding: '16px' }}>
         <h2 className=' text-cyan-500 font-bold text-xl '>CSS</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget lectus rhoncus, commodo ex non,
-          ullamcorper leo. Nullam varius enim vel enim consectetur, vitae bibendum quam sodales. Donec volutpat
-          turpis in tempor sagittis. Duis ultrices risus in mi posuere, id ullamcorper est rhoncus. Sed bibendum
-          mi at dolor tincidunt, vitae fermentum ligula rutrum. Ut in ipsum turpis. Proin efficitur ligula et
-          fermentum ullamcorper. Maecenas pretium iaculis sapien id laoreet. Integer vel diam et eros iaculis
-          aliquet vitae a metus. Phasellus et nulla ipsum. Sed commodo lacus ut dapibus tempus. Integer interdum
-          fermentum volutpat. Pellentesque eleifend mi vitae erat congue bibendum. Nulla nec ultrices erat, vel
-          vulputate tortor.
+        <p className='text-start'>
+        The code is exclusive for Donators :<br/>
+    Email: shreyassingh126@gmail.com <br/>
+    To Get the code
         </p>
       </div>
     </Paper>         

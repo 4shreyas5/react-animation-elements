@@ -7,7 +7,9 @@ import {
     Tooltip,
   } from "@material-tailwind/react";
   import "../css/a.css"
+  import { Link } from "react-router-dom";
   import Button from "./Button";
+  
    
   export default function AnimationGrid() {
     return (
@@ -23,7 +25,7 @@ import {
   </div>  
 </div>  
 <div className="mb-4 ml-14">
-<Button/>
+<Link to = '/sc1'><Button/></Link>
 </div>
     </Card>
      <Card className="bg-black w-7/12 mt-5">
@@ -96,7 +98,7 @@ import {
 </span>
 </div>
 <div className="mb-4 -mt-28 ml-14">
-<Button/>
+<Link to = '/sc2'><Button/></Link>
 </div>
     </Card>    
     <Card className="bg-black w-7/12 mt-5">
@@ -115,7 +117,7 @@ import {
 </div>
 </div>  
 <div className="mb-4 ml-14">
-<Button/>
+<Link to = '/sc3'><Button/></Link>
 </div>
     </Card> 
     <Card className="bg-black w-7/12 mt-5">
@@ -167,7 +169,7 @@ import {
 </div>
 </div>  
 <div className="mb-4 ml-14">
-<Button/>
+<Link to = '/sc4'><Button/></Link>
 </div>
     </Card>
     <Card className="bg-black w-7/12 mt-5">
@@ -184,7 +186,7 @@ import {
 </button>
 </div>  
 <div className="-mt-24 ml-14">
-<Button/>
+<Link to = '/sc5'><Button/></Link>
 </div>
     </Card>
     <Card className="bg-black w-7/12 mt-5">
@@ -205,7 +207,7 @@ import {
 </div>
 </div>  
 <div className="mb-4 ml-14">
-<Button/>
+<Link to = '/sc6'><Button/></Link>
 </div>
     </Card>
 
